@@ -11,6 +11,7 @@ public class NetworkPlayer : MonoBehaviourPun
     public Transform Head;
     public Transform LeftHand;
     public Transform RightHand;
+
     private PhotonView photonView;
     private Transform headRig;
     private Transform rightHandRig;
@@ -27,7 +28,7 @@ public class NetworkPlayer : MonoBehaviourPun
 
             headRig = rig.transform.Find("CameraOffset/MainCamera").transform;
             leftHandRig = rig.transform.Find("CameraOffset/LeftHand").transform;
-            rightHandRig = rig.transform.Find("CameraOffset/RigthHand").transform;
+            rightHandRig = rig.transform.Find("CameraOffset/RightHand").transform;
 
             return;
         }
@@ -40,7 +41,7 @@ public class NetworkPlayer : MonoBehaviourPun
     {
         if (photonView.IsMine)
         {
-            // MapPosition(Head, headRig);
+             //MapPosition(Head, headRig);
         }
     }
 
@@ -48,10 +49,10 @@ public class NetworkPlayer : MonoBehaviourPun
     {
         if (rigTransform) {
             target.position = rigTransform.position; // + cameraoffset;
-            target.position = new Vector3(target.position.x, GetComponent<Rigidbody>().position.y, target.position.z);
+            //target.position = new Vector3(target.position.x, GetComponent<Rigidbody>().position.y, target.position.z);
 
             target.rotation = rigTransform.rotation;
-            target.rotation = Quaternion.Euler(0.0f, target.eulerAngles.y, 0.0f);
+            //target.rotation = Quaternion.Euler(0.0f, target.eulerAngles.y, 0.0f);
 
             return;
         }
