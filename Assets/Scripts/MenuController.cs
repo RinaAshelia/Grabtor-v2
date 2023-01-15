@@ -9,4 +9,8 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene("Grabtor");
     }
+    public void HelpBtn()
+    {
+        SceneManager.LoadScene("Help");
+    }
 }

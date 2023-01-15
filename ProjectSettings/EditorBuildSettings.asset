@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 03e48d7fa888340429d2750331355993
   - enabled: 1
+    path: Assets/Scenes/Help.unity
+    guid: a50175d22d9a607489346fe56d8c48ad
+  - enabled: 1
     path: Assets/Scenes/Grabtor.unity
     guid: 29b956c14dc44ff4ca6eb1ec539ceabc
   m_configObjects:
