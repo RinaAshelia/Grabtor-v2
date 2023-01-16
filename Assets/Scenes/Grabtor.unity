@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 71f14a2d79f732f4d9893ef1b911f4ff, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.48395744, g: 0.57573867, b: 0.68019843, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2757,8 +2757,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "    SECOND FLOOR\n\nHeight:   377 ft\n\nArea: \t4692 sqFt\n\nSteps:   
-    674\n\n\nSecond floor can be reached by the stairs or the elevator"
+  m_text: "         THIRD FLOOR\n\nHeight:   906 ft\n\nArea: \t820 sqFt\n\nSteps:   
+    1665\n\n\nThird floor can only be reached by elevator, Stairs are been closed
+    to public"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16871,9 +16872,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "         THIRD FLOOR\n\nHeight:   906 ft\n\nArea: \t820 sqFt\n\nSteps:   
-    1665\n\n\nThird floor can only be reached by elevator, Stairs are been closed
-    to public"
+  m_text: "    SECOND FLOOR\r\n\r\nHeight:   377 ft\r\n\r\nArea: \t4692 sqFt\r\n\r\nSteps:   
+    674\r\n\r\n\r\nSecond floor can be reached by the stairs or the elevator"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
