@@ -4,15 +4,37 @@ using UnityEngine;
 
 public class foodsteps : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public AudioSource footstepsSound;
+    public GameObject player;
+
+    Vector3 lastPos;
+ 
+    void Update ()
     {
-        
+        if(player.transform.position != lastPos)
+        {
+            footstepsSound.enabled = true;
+            Debug.Log("wir laaaaufen");
+        }
+        else
+        {
+             footstepsSound.enabled = false;
+        }
+    
+        lastPos = player.transform.position;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    // void Update()
+    // {
+    //     if(Input.GetKey("primary2DAxis") || Input.GetKey(KeyCode.W)) {
+    //         footstepsSound.enabled = true;
+    //         Debug.Log("wir laaaaufen");
+    //     }
+    //     else
         
-    }
+    //         {
+    //             footstepsSound.enabled = false;
+    //         }
+        
+    // }
 }
